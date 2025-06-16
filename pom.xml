@@ -19,37 +19,10 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-        <!-- Add manually -->
         <dependency>
-            <groupId>local</groupId>
-            <artifactId>javax.servlet-api-4.0.1</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/javax.servlet-api-4.0.1.jar</systemPath>
-        </dependency>
-        <!-- Add manually -->
-        <dependency>
-            <groupId>local</groupId>
-            <artifactId>jstl-api</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/jstl-api.jar</systemPath>
-        </dependency>
-        <!-- Add manually -->
-        <dependency>
-            <groupId>local</groupId>
-            <artifactId>jstl-impl</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/jstl-impl.jar</systemPath>
-        </dependency>
-        <!-- Add manually -->
-        <dependency>
-            <groupId>local</groupId>
-            <artifactId>mysql-connector-j-9.2.0</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/mysql-connector-j-9.2.0.jar</systemPath>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
         </dependency>
     </dependencies>
     <build>
